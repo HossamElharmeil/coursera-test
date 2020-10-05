@@ -1,0 +1,139 @@
+@media (min-width: 992px) {
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    width: 100%;
+}
+
+h1 {
+    margin: 50px auto 70px auto;
+    font-size: 175%;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+.container {
+    background-color: aquamarine;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.padding-box {
+    padding: 7.5px;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.tagger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 125%;
+    padding: 2px;
+}
+
+#tagger1 {
+    background-color: rgb(130, 203, 242);
+}
+#tagger2 {
+    background-color: rgb(223, 165, 154);
+}
+#tagger3 {
+    background-color: rgb(202, 162, 237);
+}
