@@ -1,0 +1,27 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.navbar {
+    background-color: rgb(247, 255, 252);
+}
+
+.menu-item {
+    background-color: rgb(255, 254, 223);
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: #632b00;
+}
+
+.tall-section {
+    height: 1000px;
+    margin-top: 50px;
+    background-color: rgb(255, 254, 223);
+    padding: 15px;
+}
+
+.sections {
+    margin-bottom: 50px;
+}
